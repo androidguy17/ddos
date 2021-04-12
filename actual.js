@@ -767,9 +767,14 @@ var ques = ['WHen is the sadfsdfsdfdsfsdfeventsdfsdf','When asdfsadfsdfis the ev
 
 //var ques = ['asdasd','asdasd']
 var i ;
-for(i=0;i<30;i++)  {
+for(i=0;i<50;i++)  {
 
     a()
+
+    if(i==20){
+        setTimeout(()=>{console.log('timeout') },10000)
+    }
+    
    console.log("eeee")
 }
 
