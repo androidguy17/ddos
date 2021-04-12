@@ -728,8 +728,7 @@ var na = ['Class A:RAHUL KUMAR AGRAHARI',
 'ARYAN RAI',
 ]
 
-
-var yr = ["19","18","20"]; // RA year
+var yr = ["191100","181100","201100"];// RA year
 
 var branch  = ['CSE', 'computer Science','Biotech', 'IT' , 'Cse' , 'Mechanical' , 'BIO', 'Aero','Electrical', 'CS bigData']
 
@@ -763,7 +762,7 @@ var chars = 'abcdefghijklmnopqrstuvwxyz';
 //var ques = ['WHen is the event','When is the event?','Timings of this', 'None','N/a',' ','Freshers can attend?', 'sksdjsandf safdois','sadfjasifaoifowauehouwfinasdiuf','sadpfisadfohsoufd','sdfhdif','apdsifoaioafoesyfneyf0aef','asufhasufdhiaufduafuiwgiubag','sduhfhusadfusfadf','sdifsafds','sdfsdfsdfsfasfsaf']
 
 
-var ques = ['WHen is the sadfsdfsdfdsfsdfeventsdfsdf','When asdfsadfsdfis the event?','Timinasdsjdfifgs of this', 'Nsdfsdfsfone','N/a',' ','Freshers can attend?', 'sksdjsandf safdois','sad;;fjasifaoifowauehouwfinasdiuf','sadpfisadfohsoufd','sdfhdif','apdsifoaioafoesyfneyf0aef','asufhasufdhiaufduafuiwgiubag','sduhfhusadfusfadf','sdifsafds','sdfsdfsdfsfasfsaf','sdfhsdh duhusafdh iu sidf safd i']
+var ques = ['WHen is the sadfsdfsdfdsfsdfeventsdfsdf','When asdfsadfsdfis the event?','Timinasdsjdfifgs of this', 'Nsdfsdfsfone','N/a',' ','Freshers can attend?', 'sksdjsandf safdois','sad;;fjasifaoifowauehouwfinasdiuf','sadpfisadfohsoufd','sdfhdif','apdsifoaioafoesyfneyf0aef','asufhasufdhiaufduafuiwgiubag','sduhfhusadfusfadf','sdifkk;lksafds','sdfsdfsdfsfasfsaf','sdfhsdh duhusafdh iu sidf safd i','ouyiuiyiyiyioyi','iuiggugfufiyt','iyguyguygugug','vvjhhhvvhbbjhbjbhjh']
 
 
 //var ques = ['asdasd','asdasd']
@@ -802,13 +801,13 @@ var options = {
     'cookie': 'S=spreadsheet_forms=Wfyr4MFRKWsqoDIGG6Xx9RLEd_c8KKHGJlYikQjxTfQ; ANID=AHWqTUmSxtIwYXgvCbrrTwwmF9UwpNBHlDRwc7_HYJpFdxdeti6RJiRQaAG5tQr9; SID=8gcrBUVkq5ilucjOwPoXu7KWTD955b5NgIheu0mMpBKVPWp3DD9mTSto9W976wkuYOKxPw.; __Secure-3PSID=8gcrBUVkq5ilucjOwPoXu7KWTD955b5NgIheu0mMpBKVPWp3gOdDQPmNT_gbYj6p1H6Lag.; HSID=Ao12a89DM079hjKCX; SSID=A6RzAfxs6aP1xSVc0; APISID=ZAheAdiCNsuxhSNI/Alao6bWiCPqGcIFCp; SAPISID=cJBFE5w8gRIgSa7D/ARNCBdTGZ0gT1ER_-; __Secure-3PAPISID=cJBFE5w8gRIgSa7D/ARNCBdTGZ0gT1ER_-; NID=213=oB2IlMqnAFUv4G9uhFdDLONBDK5Q0Gngsqpn-cHi0grV-mFX2t5vwmNog54Aj9saTUR-cRvgHxHcwrgxTFcA3H19uZPXMa3SbxsgfADf4UiR4ghTkiI8tewukQShoJQ2_vwFvOKQmazJs6aDa7MLRKDQxDTEzvs7_9lsynWtOjSPvNC_Vn13h22hBCZp_pbXkQ_GKA0KAe_UZD7KoeKT8TvBRKqwoluNp0KYeMaDFPmPTw; 1P_JAR=2021-04-12-17; SIDCC=AJi4QfHY-AKjLAxsIzkI0naZoEsSn325ERO4jxeYkgLEYRzRLNcCfu9iU56jfztu2MTD2XpbS0XP; __Secure-3PSIDCC=AJi4QfG0NLj572EELEk6z2ZD2e4U44GnG-gfITbH8-iOdg18Yl0_8xaE7ofMmSGu0Vi39xzL2Pw; SIDCC=AJi4QfHLJm_yv5KgSgdgbzEkveUvzGrViLABbN3-DtR79FkORPlrr-piA_VJcAymbKIPh7dvSFr5; __Secure-3PSIDCC=AJi4QfEXE-ymM7cL8wmJ5I16Q55wpuGQyfeRacQ2lg3QyGyRT519metwaX9AogPbGE8JE_MjnfM'
   },
   form: {
-    'entry.912183522': `RA${yr[Math.floor(Math.random() * yr.length)]}${getRandomInt(100000000,999999999)}`,
+    'entry.912183522': `RA${yr[Math.floor(Math.random() * yr.length)]}`,
     'entry.1792826308': `${Math.random().toString(36).substring(2,4)}${getRandomInt(1000,9999)}@srmist.edu.in`,
     'entry.255697082': `${branch[Math.floor(Math.random() * branch.length)]}`,
     'entry.393793487': 'I',
     'entry.393793487_sentinel': '',
     'fvv': '1',
-    'draftResponse': `[[[null,1687432107,["${na[Math.floor(Math.random() * na.length)]}"]\r\n,0]\r\n,[null,2146005884,["${chars[Math.floor(Math.random()*26)]+ Math.random().toString(36).substring(2,11)}@gmail.com"]\r\n,0]\r\n,[null,234758700,["773${getRandomInt(1000000,9999999)}"]\r\n,0]\r\n,[null,52269382,["773${getRandomInt(1000000,9999999)}"]\r\n,0]\r\n,[null,570154455,["${ques[Math.floor(Math.random() * ques.length)]}"]\r\n,0]\r\n,[null,1407285364,["Student"]\r\n,0]\r\n,[null,822603084,["SRMIST"]\r\n,0]\r\n]\r\n,null,"-4454911317335846070"]\r\n`,
+    'draftResponse': `[[[null,1687432107,["${na[Math.floor(Math.random() * na.length)]}"]\r\n,0]\r\n,[null,2146005884,["${chars[Math.floor(Math.random()*26)]+ Math.random().toString(36).substring(2,11)}@gmail.com"]\r\n,0]\r\n,[null,234758700,["865${getRandomInt(1000000,9999999)}"]\r\n,0]\r\n,[null,52269382,["865${getRandomInt(1000000,9999999)}"]\r\n,0]\r\n,[null,570154455,["${ques[Math.floor(Math.random() * ques.length)]}"]\r\n,0]\r\n,[null,1407285364,["Student"]\r\n,0]\r\n,[null,822603084,["SRMIST"]\r\n,0]\r\n]\r\n,null,"-4454911317335846070"]\r\n`,
     'pageHistory': '0,1',
     'fbzx': '-4454911317335846070'
   }
